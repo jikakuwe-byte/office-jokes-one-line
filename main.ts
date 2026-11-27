@@ -19,12 +19,13 @@
 // The line below wins: a concrete real detail (someone microwaving fish
 // at 11:58, again), a collective office voice ("the whole floor has
 // quietly agreed"), and the laugh lands in the last two words —
-// "preferably downwind." Running the program prints that line, and
-// nothing else.
+// "preferably downwind." Revised after running: the colon after
+// "agreed" makes the floor's verdict land before the punch. Running
+// the program prints that line, and nothing else.
 
 /** One line that makes office life funny. */
 function officeJoke(): string {
-  return "Someone microwaved fish at 11:58 again, and the whole floor has quietly agreed this is the hill we die on \u2014 preferably downwind.";
+  return "Someone microwaved fish at 11:58 again, and the whole floor has quietly agreed: this is the hill we die on \u2014 preferably downwind.";
 }
 
 console.log(officeJoke());
